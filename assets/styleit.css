@@ -4,5 +4,11 @@ h2 {
 
 .indexhead {
     font-size: 50px;
-    color:darkblue;
+    color:lightseagreen;
 }
+
+.skills-heading {
+    text-align: center;
+    color:darkslategray;
+}
+

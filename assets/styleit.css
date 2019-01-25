@@ -12,3 +12,18 @@ h2 {
     color:darkslategray;
 }
 
+#profilePic {
+    width: 200px;
+    height:200px;
+}
+
+.Giph {
+    background-image: url("giphyImage.PNG");
+    background-size: 100%;
+    color: whitesmoke;
+}
+
+.pic{
+    width:100px;
+    height:100px;
+}

@@ -16,14 +16,15 @@ h2 {
     width: 200px;
     height:200px;
 }
-
-.Giph {
-    background-image: url("giphyImage.PNG");
+ .img-fluid{
+   
     background-size: 100%;
-    color: whitesmoke;
-}
+    
+ 
+} 
 
 .pic{
     width:100px;
     height:100px;
 }
+

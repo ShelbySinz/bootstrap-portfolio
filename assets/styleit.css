@@ -14,7 +14,8 @@ h2 {
 
 #profilePic {
     width: 200px;
-    height:200px;
+    height:350px;
+    
 }
  .img-fluid{
    
@@ -49,4 +50,16 @@ h2 {
   .portText2 {
       font-size: 15px;
 
+  }
+
+  /* .vertical-text {
+      transform: rotate(90deg);
+      transform-origin: left top 0; 
+      
+  } */
+
+  .vertical-text {
+      writing-mode: vertical-rl;
+      text-orientation: mixed;
+      float: left;
   }

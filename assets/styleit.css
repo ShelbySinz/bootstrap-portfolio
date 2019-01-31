@@ -28,3 +28,25 @@ h2 {
     height:100px;
 }
 
+.footer {
+    position: relative;
+    /* left: 0; */
+     bottom: 0; 
+    width: 100%;
+    background-color:grey;
+    color: white;
+    text-align: center;
+    padding-inline-start: 0px;
+    
+  }
+
+
+  .portText {
+      font-size: 25px;
+      color: grey;
+  }
+  
+  .portText2 {
+      font-size: 15px;
+
+  }

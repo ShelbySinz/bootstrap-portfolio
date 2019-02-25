@@ -63,3 +63,9 @@ h2 {
       text-orientation: mixed;
       float: left;
   }
+
+
+  .command{
+      height:200px;
+      width:80%;
+  }

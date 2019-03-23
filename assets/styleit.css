@@ -5,11 +5,13 @@ h2 {
 .indexhead {
     font-size: 50px;
     color:lightseagreen;
+    font-family: 'Indie Flower', cursive;
 }
 
 .skills-heading {
     text-align: center;
-    color:darkslategray;
+    color:whitesmoke;
+    font-family: 'Indie Flower', cursive;
 }
 
 #profilePic {
@@ -34,22 +36,23 @@ h2 {
     /* left: 0; */
      bottom: 0; 
     width: 100%;
-    background-color:grey;
     color: white;
     text-align: center;
-    padding-inline-start: 0px;
+    padding:4px;
+    font-family: 'Indie Flower', cursive;
     
   }
 
 
   .portText {
       font-size: 25px;
-      color: grey;
+      color: black;
+      font-family: 'Indie Flower', cursive;
   }
   
   .portText2 {
       font-size: 15px;
-
+      font-family: 'Indie Flower', cursive;
   }
 
   /* .vertical-text {
@@ -69,3 +72,23 @@ h2 {
       height:200px;
       width:80%;
   }
+
+  .about{
+      height:-webkit-fill-available;
+      background-image: url("../assets/background3.jpg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      
+  }
+
+ .lang1{
+    color:whitesmoke;
+ }
+ h4{
+     color:whitesmoke;
+ }
+
+ .img:hover{
+     opacity:0.2;
+ }

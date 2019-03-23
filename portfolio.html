@@ -7,13 +7,16 @@
   <title>Portfolio</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
     crossorigin="anonymous">
-  <link rel="stylesheet" type="text/css" href="assets/styleit.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/styleit.css">
 </head>
 
-<body>
+<body class = "about">
 
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-    <span class="navbar-brand mb-1 h1">Find Your Way</span>
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <span class="navbar-brand mb-1 h1"><i class="fas fa-thumbtack"></i></span>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
       aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -26,6 +29,12 @@
         <li class="nav-item">
           <a class="nav-link" href="portfolio.html">Portfolio</a>
         </li>
+        <li class = "nav-item">
+            <a  class = "nav-link" href="https://www.linkedin.com/in/shelby-sinsheimer-16ab3860/" target="_blank" role="button">LinkedIn</a>
+            </li>
+            <li class = "nav-item">
+            <a  class = "nav-link" href="https://github.com/ShelbySinz" target="_blank" ><i class="devicon-github-plain-wordmark"></i></a>
+        </li>
 
       </ul>
     </div>
@@ -34,18 +43,15 @@
   <div class="container">
     <div class="row">
       <div class="col-md-12">
-        <div class="card text-center">
-          <div class="card-header indexhead">
+      
+          <div class="text-center indexhead">
             Projects
             <hr>
-
-
-            <p class="portText">Projects I created while attending The University Of Denver's Full Stack Program. </h5>
               <p class="portText2">Skills:
-                JavaScript, API calls, Firebase Database, Node.js, and more. </p>
+                JavaScript, API calls, Firebase Database, Node.js, MySql and Sequelize, Express.js, Handlebars. </p>
 
-
-          </div>
+                <a  class = "nav-link" href="https://github.com/ShelbySinz" target="_blank" ><i class="devicon-github-plain-wordmark"></i></a>
+          
         </div>
 
         <br>
@@ -105,14 +111,12 @@
                   <p class="text-center">Click here to search for your favorite band!</p>
                 </small>
                 <hr>
-                <img class="img-fluid" src="assets/project1.PNG">
+                <img class="img-fluid img" src="assets/project1.PNG">
                 <hr>
                 <p class="mb-1">Want to search to see if your favorite band is playing close to you? Can't buy the
                   tickets right now? Save the concerts you want to see and come back at a later date to buy tickets!
                   Using the magic, of two API's, and Firebase. My team and I created a site you can do just that!
                 </p>
-
-
               </a>
             </div>
          
@@ -131,18 +135,51 @@
                   <hr>
                   <p class="mb-1"> Using node and express servers I created a friend finder. Take a short survey and find your best friend!  
                   </p>
-  
-  
                 </a>
               </div>
-
-
-
           </div>
           <br>
           <br>
+          <div class="row">
+              <div class="col-md-6">
+                <a href= "https://boiling-hollows-27692.herokuapp.com/" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start shadow">
+                  <div class="d-flex w-100 justify-content-between">
+                    <h5 class="mb-1">Build A Burger</h5>
+                    <small class="text-muted">ORM</small>
+                  </div>
+                  <small class="text-muted">
+                    <p class="text-center">Build a yummy burger here</p>
+                  </small>
+                  <hr>
+                  <img class="img-fluid" src="assets/orm.PNG">
+                  <hr>
+                  <p class="mb-1">
+                    Using express servers and handlebars templete you can create and devour your own yummy burger!
+                  </p>
+                </a>
+              </div>
+
+              <div class="col-md-6">
+                  <a href="https://serene-sierra-79338.herokuapp.com/" target="_blank" class="list-group-item list-group-item-action flex-column align-items-start shadow">
+                    <div class="d-flex w-100 justify-content-between">
+                      <h5 class="mb-1">Local Quest</h5>
+                      <small class="text-muted"></small>
+                    </div>
+                    <small class="text-muted">
+                      <p class="text-center">Click here to go on a quest!</p>
+                    </small>
+                    <hr>
+                    <img class="img-fluid" src="assets/project2.PNG">
+                    <hr>
+                    <p class="mb-1"> This group project is for the prize seeker! Using express, handlbars, and sequelize, my group and I created an app that promotes local buisnesses by sending customers on quests to local hot spots and rewarding them with coupons!
+                    </p>
+                  </a>
+                </div>
 
         </div>
+
+        <br>
+        <br>
       </div>
     </div>
   </div>

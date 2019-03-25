@@ -4,13 +4,14 @@ h2 {
 
 .indexhead {
     font-size: 50px;
-    color:lightseagreen;
+    color:darkmagenta;
     font-family: 'Indie Flower', cursive;
+    font-weight: bolder;
 }
 
 .skills-heading {
     text-align: center;
-    color:whitesmoke;
+    color:black;
     font-family: 'Indie Flower', cursive;
 }
 
@@ -36,7 +37,7 @@ h2 {
     /* left: 0; */
      bottom: 0; 
     width: 100%;
-    color: white;
+    color:black;
     text-align: center;
     padding:4px;
     font-family: 'Indie Flower', cursive;
@@ -75,7 +76,7 @@ h2 {
 
   .about{
       height:-webkit-fill-available;
-      background-image: url("../assets/background3.jpg");
+      background-image: url("../assets/background5.jpg");
       background-size: 100%;
       background-repeat: no-repeat;
       background-attachment: fixed;
@@ -83,12 +84,13 @@ h2 {
   }
 
  .lang1{
-    color:whitesmoke;
+    color:black;
  }
  h4{
-     color:whitesmoke;
+     color:black;
  }
 
  .img:hover{
      opacity:0.2;
  }
+

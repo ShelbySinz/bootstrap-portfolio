@@ -75,11 +75,13 @@ h2 {
   }
 
   .about{
-      height:-webkit-fill-available;
+      height:100%;
       background-image: url("../assets/background5.jpg");
-      background-size: 100%;
+      background-position: center;
+      background-size: cover;
       background-repeat: no-repeat;
       background-attachment: fixed;
+    
       
   }
 

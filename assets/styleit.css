@@ -32,6 +32,11 @@ h2 {
     height:100px;
 }
 
+#devicon{
+  height:400;
+  width: 400;
+}
+
 .footer {
     position: relative;
     /* left: 0; */

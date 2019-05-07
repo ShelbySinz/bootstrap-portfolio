@@ -3,14 +3,14 @@
 .indexhead {
     font-size: 50px;
     color:darkmagenta;
-    font-family: 'Indie Flower', cursive;
+    font-family:'Sofia', cursive;
     font-weight: bolder;
 }
 
 .card, .tabs, .font {
     
     color:black;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Sofia', cursive;
 }
 
 #profilePic {
@@ -44,7 +44,7 @@
     color:black;
     text-align: center;
     padding:4px;
-    font-family: 'Indie Flower', cursive;
+    font-family: 'Sofia', cursive;
     
   }
 
@@ -52,12 +52,12 @@
   .portText {
       font-size: 25px;
       color: black;
-      font-family: 'Indie Flower', cursive;
+      font-family: 'Sofia', cursive;
   }
   
   .portText2 {
       font-size: 15px;
-      font-family: 'Indie Flower', cursive;
+      font-family: 'Sofia', cursive;
   }
 
   /* .vertical-text {
@@ -72,11 +72,11 @@
       float: left;
   }
 
-
+/* 
   .command{
       height:200px;
       width:80%;
-  }
+  } */
 
   .about{
       height:100%;
